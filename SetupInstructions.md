@@ -10,8 +10,11 @@ Setting up FastAPI:
 - Save this python file where Python is installed `https://bootstrap.pypa.io/get-pip.py`
 - `python get-pip.py`
 - `pip --version`
-3) Install FastAPI and Uvicorn
-- pip3 install fastapi "uvicorn[standard]"
+3) Install FastAPI and Uvicorn [`REF: https://youtu.be/GN6ICac3OXY?si=FpjatDYzA1XKp4nV`]
+- `pip3 install fastapi "uvicorn[standard]"`
+4) Run Server
+- Create main.py and add app instance.
+- `uvicorn main:app --reload`
 
 
 ### Diagram: 
