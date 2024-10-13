@@ -17,7 +17,7 @@ Software Used/Alternatives:
 - localhost/docs (interactive)
 - localhost/redoc (non-interactive API documentation)
 6) SQLAlchemy (ORM)
-- pip install sqlalchemy [
+- 
 
 Setting up FastAPI:
 1) Make sure Python is Installed
@@ -31,6 +31,14 @@ Setting up FastAPI:
 4) Run Server
 - Create main.py and add app instance.
 - `uvicorn main:app --reload`
+
+Other installations:
+- python3 -m venv env
+- source env/bin/activate
+  - instead of having all the dependencies on our computer, we can Silo these dependencies into each project.
+  - For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment for this application without all these dependencies going to all our other python applications.
+- pip3 install fastapi "uvicorn[standard]"
+- pip3 install sqlalchemy psycopg2-binary
 
 
 ### Diagram: 
