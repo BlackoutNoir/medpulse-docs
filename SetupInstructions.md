@@ -1,17 +1,17 @@
 # SETUP INSRUCTIONS
 
 ## Core Tech Stack
-**Software Used/Alternatives:**
-FRONTEND
+### Software Used/Alternatives
+#### FRONTEND
 1) Next.js building UI, leveraging SSR/SSG, and handling routing.
 2) React: building components and managing state (Redux [ALT: ContextAPI/Jotai)].
 3) Tailwind CSS: styling application.
-BACKEND
+#### BACKEND
 1) FastAPI: web framework for building RESTful API to handle business logic and database interactions [ALT: Django/Flask].
 2) SQLAlchemy: ORM to interact with the database (Pydantic for data validation/serialization).
-DATABASE (BACKEND) 
+#### DATABASE (BACKEND) 
 1) PostgreSQL: database to store data.
-ADDITIONAL TOOLS:
+#### ADDITIONAL TOOLS:
 1) OAuth2: for authentication and securing API endpoints [ALT: JWT]
 2) WebSocket or ZoomAPI: for real-time communication in virtual consultations.
 3) Stripe/Paypal: payment processing. 
