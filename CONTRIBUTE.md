@@ -35,7 +35,7 @@ BREAKING CHANGE: Updated login API to use OAuth2, existing tokens are no longer 
 * Limit the subject line to 50 characters.
 * Wrap the body at 72 characters.
 
-### Branching Workflow
+## Branching Workflow
 We follow the **Git Feature Branch Workflow**. Here's how to work with branches in this project:
 
 - **Main Branch (`main`):** This is the production-ready branch. It contains stable code and should always be deployable.
