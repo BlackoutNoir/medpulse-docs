@@ -4,6 +4,13 @@
 
 ## BACKEND
 Setting up FastAPI:
+1) Make sure Python is Installed
+  - `python --version`. If it is installed, you will see something like `Python 3.10.0`
+2) Install Python PIP on Windows [`REF: https://www.geeksforgeeks.org/how-to-install-pip-on-windows/`]
+- Save this python file where Python is installed `https://bootstrap.pypa.io/get-pip.py`
+- `python get-pip.py`
+- `pip --version`
+3) Install FastAPI and Uvicorn
 - pip3 install fastapi "uvicorn[standard]"
 
 
