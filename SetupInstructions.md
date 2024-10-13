@@ -1,22 +1,40 @@
 # SETUP INSRUCTIONS
 
-## FRONTEND
+## Core Tech Stack
+**Software Used/Alternatives:**
+FRONTEND
+1) Next.js building UI, leveraging SSR/SSG, and handling routing.
+2) React: building components and managing state (Redux [ALT: ContextAPI/Jotai)].
+3) Tailwind CSS: styling application.
+BACKEND
+1) FastAPI: web framework for building RESTful API to handle business logic and database interactions [ALT: Django/Flask].
+2) SQLAlchemy: ORM to interact with the database (Pydantic for data validation/serialization).
+DATABASE (BACKEND) 
+1) PostgreSQL: database to store data.
+ADDITIONAL TOOLS:
+1) OAuth2: for authentication and securing API endpoints [ALT: JWT]
+2) WebSocket or ZoomAPI: for real-time communication in virtual consultations.
+3) Stripe/Paypal: payment processing. 
 
-## DATABASE
+## FRONTEND
+To be added.
+
+## DATABASE 
+### DATABASE SETUP (LOCALLY)
 - Download Postgresql from EDB (V17)
 - Launch PGAdmin
 - Right click Databases > Create Database > Name (e.g. QuizApplicationYT)
-- Modify database.py
+- Modify database.py.
 
 ## BACKEND
-**References:**
+**References/Tutorials:**
 1) Amigoscode: FastAPI Tutorial - Building RESTful APIs with Python: `https://youtu.be/GN6ICac3OXY?si=FpjatDYzA1XKp4nV`
 2) Eric Roby: How to build a FastAPI app with PostgreSQL: `https://youtu.be/398DuQbQJq0?si=sTYQXNDHtAMFYwRL`
 
 **To install all dependencies:**
 - pip install -r requirements.txt
 
---
+---
 
 **Software Used/Alternatives:**
 1) Python
@@ -28,7 +46,7 @@
 - localhost/redoc (non-interactive API documentation)
 6) SQLAlchemy (ORM)
 
---
+---
 
 **Virtual Environment:**
 Instead of having all the dependencies on our computer, we can Silo these dependencies into each project. <br>
@@ -39,7 +57,7 @@ For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment f
 - Generate requirements file (every time new dependency is installed): `pip freeze > requirements.txt`
 - Use requirements file to install required packages: `pip install -r requirements.txt`
 
---
+---
 
 **Setting up FastAPI:**
 1) Make sure Python is Installed
@@ -54,7 +72,7 @@ For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment f
 - Create main.py and add app instance.
 - `uvicorn main:app --reload`
 
---
+---
 
 **Other installations:**
 - python3 -m venv env
