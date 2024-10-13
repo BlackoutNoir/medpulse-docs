@@ -72,7 +72,7 @@ git pull origin develop
 - Before opening a new issue, check if it has already been reported or addressed.
 - If you find an open issue that matches yours, please contribute any additional information or context.
 - Provide clear steps to reproduce the issue, the expected behavior, and the actual result.
-- 
+  
 ### Feature Requests:
 - Use the issue tracker to propose new features. Provide a clear use case and details on how the feature would benefit the project.
 
