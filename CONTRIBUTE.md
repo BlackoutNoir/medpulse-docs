@@ -48,3 +48,31 @@ We follow the **Git Feature Branch Workflow**. Here's how to work with branches 
 - **Bug Fixes:** `fix/short-description`
 - **Chore/Non-code tasks:** `chore/task-description`
 - **Hotfixes:** `hotfix/issue-description`
+
+## Pull Request Process 
+Before you submit a pull request, ensure the following:
+
+1. Your branch is up to date with the `develop` branch.
+```bash
+git pull origin develop
+```
+2. Your code follows the **Style Guidelines**.
+3. Tests pass locally and any new functionality is covered by tests.
+4. You have written a clear, descriptive commit message.
+
+### Pull Request Checklist:
+- Provide a detailed description of what your PR does and any issues it addresses.
+- Reference any related issues (e.g., "Closes #123").
+- If your PR introduces a breaking change, explain what impact it will have on users.
+- Ensure that all automated tests pass.
+- Request a review from at least one team member.
+
+## Issues and Feature Requests
+### Reporting Issues:
+- Before opening a new issue, check if it has already been reported or addressed.
+- If you find an open issue that matches yours, please contribute any additional information or context.
+- Provide clear steps to reproduce the issue, the expected behavior, and the actual result.
+- 
+### Feature Requests:
+- Use the issue tracker to propose new features. Provide a clear use case and details on how the feature would benefit the project.
+
