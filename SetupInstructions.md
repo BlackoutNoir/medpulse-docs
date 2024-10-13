@@ -4,6 +4,7 @@
 
 ## BACKEND
 Setting up FastAPI:
+- pip3 install fastapi "uvicorn[standard]"
 
 
 ### Diagram: 
