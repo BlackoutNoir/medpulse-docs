@@ -34,3 +34,17 @@ BREAKING CHANGE: Updated login API to use OAuth2, existing tokens are no longer 
 * Separate subject from body with a blank line.
 * Limit the subject line to 50 characters.
 * Wrap the body at 72 characters.
+
+### Branching Workflow
+We follow the **Git Feature Branch Workflow**. Here's how to work with branches in this project:
+
+- **Main Branch (`main`):** This is the production-ready branch. It contains stable code and should always be deployable.
+- **Development Branch (`develop`):** This branch contains the latest work in progress. All new features, bug fixes, and improvements should be merged here first.
+- **Feature Branches:** Each new feature should be developed in its own branch off develop. Name your feature branches descriptively (e.g., `feature/user-auth`, `bugfix/login-issue`).
+- **Hotfix Branches:** For critical fixes that need to be applied to `main` immediately, create a branch named `hotfix/description`.
+
+### Branch Naming Conventions
+- **Features:** `feat/short-description`
+- **Bug Fixes:** `fix/short-description`
+- **Chore/Non-code tasks:** `chore/task-description`
+- **Hotfixes:** `hotfix/issue-description`
