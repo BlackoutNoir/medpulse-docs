@@ -10,6 +10,8 @@
 **To install all dependencies:**
 - pip install -r requirements.txt
 
+--
+
 **Software Used/Alternatives:**
 1) Python
 2) FastAPI (API Backend)
@@ -20,6 +22,8 @@
 - localhost/redoc (non-interactive API documentation)
 6) SQLAlchemy (ORM)
 
+--
+
 **Virtual Environment:**
 Instead of having all the dependencies on our computer, we can Silo these dependencies into each project. <br>
 For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment for this application without all these dependencies going to all our other python applications.
@@ -28,6 +32,8 @@ For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment f
 - Install all required packages (e.g. pip install fastapi[all] psycopg2 - Replace fastapi[all] and psycopg2 with needed packages)
 - Generate requirements file (every time new dependency is installed): `pip freeze > requirements.txt`
 - Use requirements file to install required packages: `pip install -r requirements.txt`
+
+--
 
 **Setting up FastAPI:**
 1) Make sure Python is Installed
@@ -41,6 +47,8 @@ For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment f
 4) Run Server
 - Create main.py and add app instance.
 - `uvicorn main:app --reload`
+
+--
 
 **Other installations:**
 - python3 -m venv env
