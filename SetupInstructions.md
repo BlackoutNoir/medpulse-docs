@@ -2,6 +2,12 @@
 
 ## FRONTEND
 
+## DATABASE
+- Download Postgresql from EDB (V17)
+- Launch PGAdmin
+- Right click Databases > Create Database > Name (e.g. QuizApplicationYT)
+- Modify database.py
+
 ## BACKEND
 **References:**
 1) Amigoscode: FastAPI Tutorial - Building RESTful APIs with Python: `https://youtu.be/GN6ICac3OXY?si=FpjatDYzA1XKp4nV`
