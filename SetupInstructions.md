@@ -3,7 +3,7 @@
 ## Core Tech Stack (NOTE: Non-exhaustive list)
 ### Software Used/Alternatives 
 #### FRONTEND
-1) Next.js building UI, leveraging SSR/SSG, and handling routing.
+1) Next.js: building UI, leveraging SSR/SSG, and handling routing.
 2) React: building components and managing state (Redux [ALT: ContextAPI/Jotai)].
 3) Tailwind CSS: styling application.
 #### BACKEND
