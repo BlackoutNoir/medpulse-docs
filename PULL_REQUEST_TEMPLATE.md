@@ -4,8 +4,6 @@
 
 Provide a clear and descriptive title for your PR. Example: "```Fix login bug causing session timeout```"
 
----
-
 ## Description
 
 ### What does this PR do?
