@@ -17,7 +17,6 @@ Software Used/Alternatives:
 - localhost/docs (interactive)
 - localhost/redoc (non-interactive API documentation)
 6) SQLAlchemy (ORM)
-- 
 
 Setting up FastAPI:
 1) Make sure Python is Installed
