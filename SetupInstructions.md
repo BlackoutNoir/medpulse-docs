@@ -9,7 +9,7 @@ Software Used/Alternatives:
 3) Pydantic (Data Validation)
 4) FastAPI Default SwaggerDocs (API endpoint testing) [ALTS: Thunder Client VSC Extension, Postman]
 - localhost/docs (interactive)
-- localhost/redoc (API documentation)
+- localhost/redoc (non-interactive API documentation)
 
 Setting up FastAPI:
 1) Make sure Python is Installed
