@@ -52,7 +52,8 @@ For instance, FASTAPI-POSTGRRESQL-PROJ directory, we can create an environment f
 
 **Other installations:**
 - python3 -m venv env
-- source env/bin/activate
+- source env/bin/activate (linux?) OR .\env\Scripts\activate (windows)
+- where python (to confirm that you are in env path)
 - pip3 install fastapi "uvicorn[standard]"
 - pip3 install sqlalchemy psycopg2-binary
 
