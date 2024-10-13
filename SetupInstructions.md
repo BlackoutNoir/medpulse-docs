@@ -3,13 +3,21 @@
 ## FRONTEND
 
 ## BACKEND
+References:
+1) Amigoscode: FastAPI Tutorial - Building RESTful APIs with Python: `https://youtu.be/GN6ICac3OXY?si=FpjatDYzA1XKp4nV`
+2) Eric Roby: How to build a FastAPI app with PostgreSQL: `https://youtu.be/398DuQbQJq0?si=sTYQXNDHtAMFYwRL`
+
+
 Software Used/Alternatives:
 1) Python
 2) FastAPI (API Backend)
-3) Pydantic (Data Validation)
-4) FastAPI Default SwaggerDocs (API endpoint testing) [ALTS: Thunder Client VSC Extension, Postman]
+- pip3 install fastapi "uvicorn[standard]"
+4) Pydantic (Data Validation)
+5) FastAPI Default SwaggerDocs (API endpoint testing) [ALTS: Thunder Client VSC Extension, Postman]
 - localhost/docs (interactive)
 - localhost/redoc (non-interactive API documentation)
+6) SQLAlchemy (ORM)
+- pip install sqlalchemy [
 
 Setting up FastAPI:
 1) Make sure Python is Installed
