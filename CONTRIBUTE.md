@@ -1,3 +1,6 @@
+# Contributing to MedPulse 
+Please take a moment to review this guide to make sure your contributions are aligned with our workflow.
+
 ## Commit Message Guidelines
 
 We use the **Conventional Commits** format to structure our commit messages. A good commit message helps to communicate the context of your change.
