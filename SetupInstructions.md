@@ -3,6 +3,13 @@
 ## FRONTEND
 
 ## BACKEND
+Software Used/Alternatives:
+1) Python
+2) FastAPI (API Backend)
+3) Pydantic (Data Validation)
+4) FastAPI Default SwaggerDocs (API endpoint testing) [ALTS: Thunder Client VSC Extension, Postman]
+- localhost/docs
+
 Setting up FastAPI:
 1) Make sure Python is Installed
   - `python --version`. If it is installed, you will see something like `Python 3.10.0`
