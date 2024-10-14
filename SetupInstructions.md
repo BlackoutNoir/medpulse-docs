@@ -17,7 +17,18 @@
 3) Stripe/Paypal: payment processing. 
 
 ## FRONTEND
-To be added.
+0) To install all dependencies, write (`npx install`)
+1) Create NextJS App
+- pnpm dlx create-next-app@latest [ALT: npx/yarn]
+- Name: medpulse-ui-main
+- TypeScript, ESLint, Tailwind CSS, SRC, App Router: Yes
+- Customize Default Alias: No
+- yarn dev (verify nextjs is working) 
+3) Add ShadCN Component Library
+- npx shadcn@latest init
+- New York, Zinc, CSS Variables: Yes
+- Result: src/lib/utils.ts
+
 
 ## DATABASE 
 ### DATABASE SETUP (LOCALLY)
