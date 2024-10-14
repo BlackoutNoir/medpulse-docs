@@ -23,18 +23,23 @@
 
 ## FRONTEND
 0) To install all dependencies, write (`npx install`)
-1) Create NextJS App
+1) Create NextJS App (`REF: https://youtu.be/SG82Aqcaaa0?si=JT-9HH7g8GPaQXEF`)
 - pnpm dlx create-next-app@latest [ALT: npx/yarn]
 - Name: medpulse-ui-main
 - TypeScript, ESLint, Tailwind CSS, SRC, App Router: Yes
 - Customize Default Alias: No
-- yarn dev (verify nextjs is working) 
-3) Add ShadCN Component Library
+- yarn dev (verify nextjs is working)
+3) Add ShadCN Component Library (`REF: https://youtu.be/SG82Aqcaaa0?si=JT-9HH7g8GPaQXEF`)
 - npx shadcn@latest init
 - New York, Zinc, CSS Variables: Yes
 - Result: src/lib/utils.ts
-4) Add Lucid Icons Library
+4) Add Lucid Icons Library (`REF: https://youtu.be/SG82Aqcaaa0?si=JT-9HH7g8GPaQXEF`
 - pnpm install lucide-react
+5) Setup Prettier (REF: `https://youtu.be/DqfQ4DPnRqI?si=HLyIMEDOS3PCFf6P`)
+- npm i --save-dev --save-exact prettier
+- npm i --save-dev eslint-config-prettier
+- modify .eslintrc.json to extend prettier
+- npx eslint-config-prettier script.js (?)
 
 
 ## DATABASE 
