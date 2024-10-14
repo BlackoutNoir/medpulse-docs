@@ -28,6 +28,8 @@
 - npx shadcn@latest init
 - New York, Zinc, CSS Variables: Yes
 - Result: src/lib/utils.ts
+4) Add Lucid Icons Library
+- pnpm install lucide-react
 
 
 ## DATABASE 
