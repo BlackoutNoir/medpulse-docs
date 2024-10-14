@@ -1,5 +1,10 @@
 # SETUP INSRUCTIONS
 
+## VSC Useful Shortcuts:
+1) Copy all elements down
+- Select all elements
+- SHIFT + ALT + ARROW DOWN
+
 ## Core Tech Stack (NOTE: Non-exhaustive list)
 ### Software Used/Alternatives 
 #### FRONTEND
